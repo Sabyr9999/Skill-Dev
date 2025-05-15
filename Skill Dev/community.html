@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Community | SkillDev</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo glow">SkillDev</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="skills.html" class="nav__link">Skills</a></li>
+          <li><a href="community.html" class="nav__link">Community</a></li>
+          <li><a href="profile.html" class="nav__link">Profile</a></li>
+          <li><a href="login.html" class="nav__link">Login</a></li>
+          <li><a href="signup.html" class="nav__link">Sign Up</a></li>
+          <li><a href="login.html" class="nav__link cta-button">Get Started</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="community-page">
+    <section class="container">
+      <h1 class="hero-title">Community Forum</h1>
+      <p class="hero-text">Share your journey, ask questions, and support each other.</p>
+
+      <div class="forum-posts">
+        <div class="post-card">
+          <h3>How do you stay consistent with reading?</h3>
+          <p>I've been trying to read every day, but sometimes I lose motivation. Any tips?</p>
+          <span class="post-author">— User123</span>
+        </div>
+
+        <div class="post-card">
+          <h3>Best app to track workouts?</h3>
+          <p>I want to track my progress in strength training. What apps do you recommend?</p>
+          <span class="post-author">— FitMaster</span>
+        </div>
+
+        <div class="post-form">
+          <textarea id="new-post" placeholder="Share your thoughts..."></textarea>
+          <button onclick="addPost()">Post</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
